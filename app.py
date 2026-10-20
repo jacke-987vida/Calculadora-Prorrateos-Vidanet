@@ -4,10 +4,10 @@ st.title("Calculadora de Prorrateos - Vidanet")
 
 # Creamos 4 pestañas en el orden que indicaste
 tab1, tab2, tab3, tab4 = st.tabs([
-    "1. Recargo 15",
-    "2. Descuento 15",
-    "3. Recargo Día 1",
-    "4. Descuento Día 1"
+    "Recargo 15",
+    "Descuento 15",
+    "Recargo 01",
+    "Descuento 01"
 ])
 
 # -------------------------------------------------------------
