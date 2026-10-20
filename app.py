@@ -63,4 +63,4 @@ with tab4:
         dias = dia_3 - 1
         descuento = round((monto_3 / 30) * dias, 2)
         total = round(monto_3 - descuento, 2)
-        st.markdown(f"Días a Descontar: {dias} | Descuento: ${descuento:.2f} | **TOTAL A COBRAR: ${total:.2f}**")
+        st.markdown(f"Días Descontados: {dias} | Descuento: ${descuento:.2f} | **TOTAL A COBRAR: ${total:.2f}**")
