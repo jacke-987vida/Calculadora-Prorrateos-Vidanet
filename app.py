@@ -27,9 +27,9 @@ with tab1:
 # Prorrateo Descuento (15 Del Mes)
 # -------------------------------------------------------------
 with tab2:
-    st.subheader("Prorrateo Descuento (Corte al 15)")
-    monto_2 = st.number_input("Monto del plan ($)", value=30.00, key="m2")
-    dia_2 = st.number_input("Día de instalación", min_value=1, max_value=31, value=16, key="d2")
+    st.subheader("Prorrateo Descuento (Del 21 al 15)")
+    monto_2 = st.number_input("MONTO DEL PLAN ($)", value=30.00, key="m2")
+    dia_2 = st.number_input("FECHA DE INSTALACIÓN", min_value=1, max_value=31, value=16, key="d2")
 
     if st.button("Calcular Descuento 15", key="btn2"):
         dias = dia_2 - 15
