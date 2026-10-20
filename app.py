@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Calculadora de Prorrateos - Vidanet")
+st.title("Calculadora De Prorrateos Vidanet")
 
 # Creamos 4 pestañas en el orden que indicaste
 tab1, tab2, tab3, tab4 = st.tabs([
