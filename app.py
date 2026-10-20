@@ -21,7 +21,7 @@ with tab1:
     if st.button("Calcular Recargo", key="btn1"):
         dias = 0 if dia_1 == 15 else 15 - dia_1
         total = monto_1 if dia_1 == 15 else round(monto_1 + (monto_1 / 30 * dias), 2)
-        st.success(f"Días Extra: {dias} | TOTAL A COBRAR: ${total:.2f}")
+        st.success(f"Días Extra: {dias} | Recargo: ${recargo:.2f} | TOTAL A COBRAR: ${total:.2f}")
 
 # -------------------------------------------------------------
 # Prorrateo Descuento (15 Del Mes)
