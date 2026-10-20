@@ -4,10 +4,10 @@ st.title("Calculadora De Prorrateos Vidanet")
 
 # Creamos 4 pestañas en el orden que indicaste
 tab1, tab2, tab3, tab4 = st.tabs([
-    "RECARGO 15",
-    "DESCUENTO 15",
-    "RECARGO 01",
-    "DESCUENTO 01"
+    "**RECARGO 15**",
+    "**DESCUENTO 15**",
+    "**RECARGO 01**",
+    "**DESCUENTO 01**"
 ])
 
 # -------------------------------------------------------------
@@ -45,7 +45,7 @@ with tab3:
     monto_4 = st.number_input("MONTO DEL PLAN ($)", value=30.00, key="m4")
     dia_4 = st.number_input("FECHA DE INSTALACIÓN", min_value=1, max_value=31, value=23, key="d4")
 
-    if st.button("Calcular Recargo Día", key="btn4"):
+    if st.button("Calcular Recargo", key="btn4"):
         dias = 0 if dia_4 == 1 else (30 - dia_4 + 1)
         recargo = round((monto_4 / 30) * dias, 2)
         total = round(monto_4 + recargo, 2)
