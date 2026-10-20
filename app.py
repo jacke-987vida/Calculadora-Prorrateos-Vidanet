@@ -14,7 +14,7 @@ tab1, tab2, tab3, tab4 = st.tabs([
 # Prorrateo Recargo (15 Del Mes)
 # -------------------------------------------------------------
 with tab1:
-    st.subheader("Prorrateo Recargo (Del 09 al 21)")
+    st.subheader("Prorrateo Recargo (Del 09 al 14)")
     monto_1 = st.number_input("Monto del plan ($)", value=30.00, key="m1")
     dia_1 = st.number_input("Día de instalación", min_value=1, max_value=31, value=10, key="d1")
 
